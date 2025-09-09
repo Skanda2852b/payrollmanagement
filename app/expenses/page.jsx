@@ -181,7 +181,7 @@ export default function Expenses() {
                   onChange={
                     handleChange
                   }
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 >
                   <option value="">
@@ -230,7 +230,7 @@ export default function Expenses() {
               <div>
                 <label
                   htmlFor="year"
-                  className="block text-sm font-medium text-gray-700 mb-1"
+                  className="block text-sm text-black font-medium text-gray-700 mb-1"
                 >
                   Year
                 </label>
@@ -244,7 +244,7 @@ export default function Expenses() {
                   onChange={
                     handleChange
                   }
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
               </div>
@@ -266,7 +266,7 @@ export default function Expenses() {
                 onChange={
                   handleChange
                 }
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               >
                 <option value="">
@@ -294,7 +294,7 @@ export default function Expenses() {
             <div className="mb-4">
               <label
                 htmlFor="amount"
-                className="block text-sm font-medium text-gray-700 mb-1"
+                className="block text-sm text-black font-medium text-gray-700 mb-1"
               >
                 Amount ($)
               </label>
@@ -308,7 +308,7 @@ export default function Expenses() {
                 onChange={
                   handleChange
                 }
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               />
             </div>
@@ -316,7 +316,7 @@ export default function Expenses() {
             <div className="mb-4">
               <label
                 htmlFor="description"
-                className="block text-sm font-medium text-gray-700 mb-1"
+                className="block text-sm text-black font-medium text-gray-700 mb-1"
               >
                 Description
               </label>
@@ -330,7 +330,7 @@ export default function Expenses() {
                   handleChange
                 }
                 rows={3}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               ></textarea>
             </div>
 
