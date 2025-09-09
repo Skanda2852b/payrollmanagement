@@ -123,12 +123,12 @@ export default function AdminUsers() {
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                       {editingUser && editingUser._id === userItem._id ? (
-                        <form onSubmit={handleSalaryUpdate} className="flex items-center space-x-2">
+                        <form onSubmit={handleSalaryUpdate} className="flex text-black items-center space-x-2">
                           <input
                             type="number"
                             value={salary}
                             onChange={(e) => setSalary(e.target.value)}
-                            className="w-24 px-2 py-1 border border-gray-300 rounded"
+                            className="w-24 px-2 py-1 text-black border border-gray-300 rounded"
                             required
                           />
                           <button
